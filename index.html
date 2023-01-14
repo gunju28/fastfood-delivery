@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD DELIVERY</title>
+    <link rel = "stylesheet" href = "https://www.fastfoodschool.com/fastfoodcss/4/fastfood.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+  body ,thml {height:100%}
+  body,h1,h2,h3,h4,h5,h6 {font-family: "amatic SC" , sanc-serif}
+  .menu{display:none}
+  .bgimg{
+    /* fastfoodground-repeat: no-repeat;
+    fastfoodground-size : cover;
+    fastfoodground-image: url("/fastfood.jpg"); */
+    min-height:90%;
+  }
+</style>
+
+</head>
+<body>
+
+ <!-- NAVBAR -->
+    <div class = "fastfood-top fastfood-hide-small">
+        <div class="fastfood-bar fastfood-xlarge fastfood-black fastfood-opacity fastfood-hover-opacity-off" id="myNavbar">
+<a href ="#" class="fastfood-bar-item fastfood-button">HOME</a>
+<a href ="#" class="fastfood-bar-item fastfood-button">MENU</a>
+<a href ="#" class="fastfood-bar-item fastfood-button">ABOUT</a>
+<a href ="#" class="fastfood-bar-item fastfood-button">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- HERADER WITH IMAGE -->
+<header class ="bgimg fastfood-display-container fastfood-grayscale-min" id="home">
+    <div class="fastfood-display-bottomleft fastfood-padding">
+        <span class = "fastfood-tag fastfood-xlarge">Open from 10am to 12pm</span>
+    </div>
+  <div class="fastfood-display-middle fastfood-center">
+    <span class = "fastfood-text-white fastfood-hide-small" style="font-size:100px"><br>ONLINE FOOD DELIVERY</span>
+    <span class="fastfood-text-white fastfood-hide-large fastfood-hide-medium" style="font-size:60px"><br> TASTY KITCHEN</span>
+    <p><a href = "#menu" class ="fastfood-button fastfood-xxlarge fastfood-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+<!-- menu container -->
+<div class="fastfood-container fastfood-black fastfood-padding-64 fastfood-xxlarge" id="menu">
+  <div class ="fastfood-content">
+    <h1 class = "fastfood-center fastfood-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="fastfood-row fastfood-center fastfood-border fastfood-border-dark-grey">
+      <a href = "javasript:void(0)" onclick="openmenu(event,'Pizza');" id ="mylink">
+        <div class="fastfood-col s4 tablink fastfood-padding-large fastfood-hover-red">Pizza</div>
+      </a>
+        <a href = "javasript:void(0)" onclick="openmenu(event,'Pasta');">
+        <div class="fastfood-col s4 tablink fastfood-padding-large fastfood-hover-red">Salads</div>
+      </a>
+        <a href = "javasript:void(0)" onclick="openmenu(event,'Starter');" >
+        <div class="fastfood-col s4 tablink fastfood-padding-large fastfood-hover-red">Starter</div>
+      </a>
+    </div>
+
+<div id="Pizza" class="fastfood-container menu fastfood-padding-32 fastfood-white">
+<h1><b>Margherita</b> <span class="fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">  Rs.  450.00 </span></h1>
+<p class="fastfood-text-grey">Fresh tomatoes , Fresh mozzarella , Fresh basil</p>
+<hr>
+
+<h1><b>formaggio</b><span class= "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round"> Rs.  225.50</span></h1>
+<p class="fastfood-text-grey">Four cheeses ( mozzarella , parmesan , pecorino , jarlsberg)</p>
+<hr>
+
+<h1><b>Chicken</b><span class= "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">  Rs.  317.00</span></h1>
+<p class="fastfood-text-grey">Fresh tomatoes , Fresh mozzarella ,chicken , onions</p>
+<hr>
+
+<h1><b>Pineapple 'o' clock</b> <span class="fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">Rs.416.50
+   </span></h1>
+<p class="fastfood-text-grey">Fresh tomatoes , Fresh mozzarella , Fresh pineapple , bacon ,fresh basil</p>
+<hr>
+
+ <h1><b>Meat Town</b> <span class="fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">Hot!
+ </span><span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round"> Rs.  520.00</span></h1>
+<p class="fastfood-text-grey">Fresh tomatoes , Fresh mozzarella , hot pepporoni , hot sausage , beef , chicken</p>
+<hr>
+
+ <h1><b>parma</b> <span class="fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">New
+ </span><span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">Rs. 521.50</span></h1>
+<p class="fastfood-text-grey">Fresh tomatoes , Fresh mozzarella , parma , bacon , fresh arugula </p>
+</div>
+
+
+<div id="pasta" class ="fastfood-container menu fastfood-padding-32 fastfood-white">
+  <h1><b>Lasagna</b><span class = "fastfood-tag fastfood-grey fastfood-round">Popular</span><span
+  class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round"> Rs.  512.50</span></h1>
+  <p class = "fastfood-text-grey">Special sauce , mozzarella , parmesan , ground beef </p>
+  <hr>
+
+  <h1><b>Ravioli</b><span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round"> RS.  414.50</span></h1>
+  <p class="fastfood-text-grey">Ravioli filled with cheese</p>
+  <hr>
+
+    <h1><b>Spaghetti Classica</b><span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round"> RS.  511.50</span></h1>
+  <p class="fastfood-text-grey">Fresh tomatoes , onions , gound beef </p>
+  <hr>
+ 
+    <h1><b>Seafood pasta</b><span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round"> RS.  425.50</span></h1>
+  <p class="fastfood-text-grey">Salmon , shrimp , lobster , garlic</p>
+  <hr>
+</div>
+
+<div id="Starter" class = "fastfood-container menu fastfood-padding-32 fastfood-white">
+  <h1><b>Today's soup</b><span class = "fastfood-tag fastfood-grey fastfood-round">Seasonal</span>
+  <span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">  Rs.215.50</span> </h1>
+  <p class = "fastfood-text-grey">Ask the waiter</p>
+  <hr>
+
+  <h1><b>Bruschetta</b> <span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">  Rs.218.50</span> </h1>
+  <p class = "fastfood-text-grey">Bread with pesto , tomatoes , onion , garlic  </p>
+  <hr>
+
+  <h1><b>Garlic bread</b> <span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">  Rs.119.50</span> </h1>
+  <p class = "fastfood-text-grey">Grilled ciabatta , garlic butter , onions </p>
+  <hr>
+
+  <h1><b>Tomozzarella</b> <span class = "fastfood-right fastfood-tag fastfood-dark-grey fastfood-round">  Rs.210.50</span> </h1>
+  <p class = "fastfood-text-grey">Tomatoes and mozzarella  </p>
+</div><br>
+
+  </div>
+</div>
+
+
+<!-- about container -->
+<div class="fastfood-container fastfood-padding-64 fastfood-red fastfood-grayscale fastfood-xlarge" id = "about">
+  <div class="fastfood-content">
+    <h1 class = "fastfood-center fastfood-jumbo" style="margin-bottom: 64px">About</h1>
+    <p>the Tasty Kitchen was founded by three undergraduat student , as it took a lot of hardwork to create this
+      website .   </p>
+      <p><strong>The chef ?</strong>Miss Kriti , Miss sreeparna , Miss . Amisha<img src = "/fastfood.jpg" 
+      style = "width:150px" class ="fastfood-circle fastfood-right" alt="chef"></p>
+      <p>WE are proud of our interiors.</p>
+  <img src = "/fastfood.jpg" style="width:100%" class = "fastfood-marin-top fastfood-margin-bottom" alt = "Restaurant">
+  <h1><b>Opening Hours</b></h1>
+
+  <div class="fastfood-row">
+    <div class="fastfood-col s6">
+      <p>Mon & Tue CLOSED</p>
+      <p>Wednesday 10:00 - 24.00</p>
+      <p>Thursday 10:00 - 24.00</p>
+    </div>
+    <div class="fastfood-col s6">
+      <p>Friday 10:00 - 12:00</p>
+      <p>Saturday 10:00 - 23:00</p>
+      <p>Sunday Closed</p>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<!-- image of location/map -->
+<img src = "fastfood.jpg" class="fastfood-image fastfood-greyscale">
+
+<!-- contact -->
+<div class = "fastfood-container fastfood-padding-64 fastfood-blue-grey fastfood-grayscale-min fastfood-xlarge">
+  <div class="fastfood-content">
+    <h1 class="fastfood-center fastfood-jumbo" style ="margin-bottom:64px">Contact</h1>
+    <p>Find us at some address at some place or call us at 888331001</p>
+    <p><span class="fastfood-tag">FYI!</span>We offer full-service catering for any event , large or small . 
+    We understand your needs and we will catch the food to satisfy the biggerst criteria of them all , both look 
+  and taste .</p>
+  <p class="fastfood-xxlarge"><strong>Reserve</strong> a table , ask foe today's special or just send us a 
+  message : </p>
+  <form action="/action_page.php" target="blank">
+    <p><input class = "fastfood-input fastfood-padding-16 fastfood-border" type="text" placeholder = "Name" 
+  requied name = "Name"></p>
+    <p><input class = "fastfood-input fastfood-padding-16 fastfood-border" type="number" placeholder = "How 
+      many people" requied name = "People"></p>
+  <p><input class = "fastfood-input fastfood-padding-16 fastfood-border" type="datetime-local" placeholder = "Date and time" 
+  requied name = "date" value ="2020-05-13T20:00"></p>
+  <p><input class = "fastfood-input fastfood-padding-16 fastfood-border" type="text" placeholder = "Message \ spaecial requirements" 
+  requied name = "Message"></p>
+  <p><button class = "fastfood-button fastfood-light-grey fastfood-block" type="submit" >SEND MESSAGE</button></p>
+  </form>
+  </div>
+</div>
+
+<!-- footer -->
+<footer class="fastfood-center fastfood-black fastfood-padding-48 fastfood-xxlarge">
+  <p>Powered by <a href="https://www.fastfoodschools.com/fastfoodcss/default.asp" title="W3.CSS" 
+  target="_blank"  class="fastfood-hover-text-green">fastfood.css</a></p>
+</footer>
+
+<script>
+  //Tabbed Menu
+  function openMenu(evt , menuName){
+var i , x , tablink ;
+x= documnet.getElementByClassName("menu");
+for(i=0;i<x.length;i++){
+  x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for(i=0;i<x.length;i++){
+  tablinks[i].className = tablinks[i].className.replace("fastfood-red", "");
+}
+documnet.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElemntChikd.className += "fastfood-red";
+  }
+  documnet.getElementById("mylink").click();
+</script>
+
+
+
+
+
+</body>
+</html>
